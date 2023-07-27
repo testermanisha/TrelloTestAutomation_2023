@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-27T11:47:09 CEST" name="Default suite" finished-at="2023-07-27T11:47:12 CEST" duration-ms="2788">
+    <groups>
+    </groups>
+    <test started-at="2023-07-27T11:47:09 CEST" name="Default test" finished-at="2023-07-27T11:47:12 CEST" duration-ms="2788">
+      <class name="TrelloBoardTests.GetBoard">
+        <test-method signature="getABoard()[pri:0, instance:TrelloBoardTests.GetBoard@4c1909a3]" started-at="2023-07-27T11:47:09 CEST" name="getABoard" finished-at="2023-07-27T11:47:11 CEST" duration-ms="2109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getABoard -->
+        <test-method signature="getABoardWithInvalidId()[pri:0, instance:TrelloBoardTests.GetBoard@4c1909a3]" started-at="2023-07-27T11:47:11 CEST" name="getABoardWithInvalidId" finished-at="2023-07-27T11:47:11 CEST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getABoardWithInvalidId -->
+        <test-method signature="getABoardWithInvalidKey()[pri:0, instance:TrelloBoardTests.GetBoard@4c1909a3]" started-at="2023-07-27T11:47:11 CEST" name="getABoardWithInvalidKey" finished-at="2023-07-27T11:47:12 CEST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getABoardWithInvalidKey -->
+        <test-method signature="getABoardWithInvalidToken()[pri:0, instance:TrelloBoardTests.GetBoard@4c1909a3]" started-at="2023-07-27T11:47:12 CEST" name="getABoardWithInvalidToken" finished-at="2023-07-27T11:47:12 CEST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getABoardWithInvalidToken -->
+      </class> <!-- TrelloBoardTests.GetBoard -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
